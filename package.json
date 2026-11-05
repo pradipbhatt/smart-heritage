@@ -1,0 +1,30 @@
+{
+  "name": "sudurpaschim-heritage-atlas-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node --env-file-if-exists=server/.env server/index.js",
+    "seed:loadtest": "node --env-file-if-exists=server/.env scripts/seed-load-test.js",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=server/.env server/index.js"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^8.9.5",
+    "openskp": "^1.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+!/.env.example
+!server/.env.example
+server/.env
+.local-mongodb/
+.DS_Store

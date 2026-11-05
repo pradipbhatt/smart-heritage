@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/studio", "destination": "/index.html" },
+    { "source": "/guide", "destination": "/index.html" },
+    { "source": "/review", "destination": "/index.html" },
+    { "source": "/explorer", "destination": "/index.html" },
+    { "source": "/stories", "destination": "/index.html" }
+  ]
+}
